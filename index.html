@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חדר הכוח</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="./css/default.css">
+</head>
+<body class="text-gray-800 antialiased">
+    <!-- NAVBAR -->
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+                <a href="#" class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">
+                    חדר הכוח
+                </a>
+                <button id="collapseButton" type="button" class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none">
+                    <i class="text-white fas fa-bars"></i>
+                </button>
+            </div>
+            <div id="collapseNavbar" class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden">
+                <ul class="flex flex-col lg:flex-row list-none lg:mr-auto">
+                    <li class="flex items-center">
+                        <a href="#" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                            <i class="text-yellow-500 fab fa-facebook text-lg leading-lg"></i>
+                            <span class="lg:hidden inline-block mr-2">
+                                Share
+                            </span>
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="#" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                            <i class="text-yellow-500 fab fa-twitter text-lg leading-lg"></i>
+                            <span class="lg:hidden inline-block mr-2">
+                                Tweet
+                            </span>
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="#" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                            <i class="text-yellow-500 fab fa-linkedin text-lg leading-lg"></i>
+                            <span class="lg:hidden inline-block mr-2">
+                                Profile
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- MAIN -->
+    <main>
+        <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh">
+            <div class="absolute top-0 w-full h-full bg-top bg-cover" style="background-image: url('./img/hero.png')">
+                <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+            </div>
+            <div class="container relative mx-auto" data-aos="fade-in">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                        <div class="py-12">
+                            <h1 class="text-white font-semibold text-5xl">
+                                להרגיש את
+                                <span class="text-yellow-500">
+                                    העוצמה
+                                </span>
+                            </h1>
+                            <p class="mt-4 text-lg text-gray-300">
+                                ברוכים הבאים לחדר הכוח.
+                                אנו מרכז כושר ואימון המתמקד בלדחוף אותך לגבול המוחלט שלך.
+                                הורד את החוברת המלאה כדי להתחיל עוד היום!
+                            </p>
+                            <a href="#" class="bg-transparent hover:bg-yellow-500 text-yellow-500 font-semibold hover:text-white p-4 border border-yellow-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer">
+                                החוברת להורדה
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 70px">
+                <svg viewBox="0 0 2560 95" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 overflow-hidden">
+                    <polygon points="2560,0 2560,100 0,100"></polygon>
+                </svg>
+            </div>
+        </div>
+        <!-- ABOUT -->
+        <section class="relative py-20 bg-black text-white">
+            <div class="container mx-auto px-4">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-left">
+                        <img src="./img/about.png" alt="About Image" class="max-w-full rounded-lg shadow-lg">
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-right">
+                        <div class="md:pr-12">
+                            <small class="text-yellow-500">על חדר הכושר שלנו</small>
+                            <h3 class="text-3xl font-bold">
+                                פיתוח גוף בטוח
+                            </h3>
+                            <p class="mt-4 text-lg leading-relaxed">
+                                התוסף כולל שלושה דפים שנבנו מראש כדי לעזור לך להתחיל מהר יותר.
+                                אתה יכול לשנות את הטקסט והתמונות ואתה מוכן ללכת.
+                            </p>
+                            <ul class="list-none mt-6">
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="font-semibold inline-block py-3 ml-3 text-yellow-500">
+                                                <i class="fas fa-dumbbell fa-2x"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-xl">
+                                                ציוד הכושר העדכני והטוב ביותר
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="font-semibold inline-block py-3 ml-3 text-yellow-500">
+                                                <i class="fas fa-hard-hat fa-2x"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-xl">
+                                                ריפוד רצפת קצף באיכות 5 אינץ'
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="font-semibold inline-block py-3 ml-3 text-yellow-500">
+                                                <i class="fas fa-users fa-2x"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-xl">
+                                                3 מאמנים מקצועיים
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TRAINERS -->
+        <section class="pt-20 pb-20">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center text-center mb-20">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold">
+                            הכירו את המאמנים שלנו
+                        </h2>
+                        <p class="text-lg leading-relaxed m-4">
+                            המאמנים שלנו נמצאים כאן כדי להקדיש את הזמן והמאמץ הדרוש לכם בכדי להגיע לכושר הטוב ביותר בחייכם.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-left">
+                        <div class="md:px-6">
+                            <img src="./img/mr-rogers.png" alt="Mr Rogers" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px">
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">
+                                    מר רוג'רס
+                                </h5>
+                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                    שומר השכונה
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-left">
+                        <div class="md:px-6">
+                            <img src="./img/strawberry-shortcake.png" alt="Mr Rogers" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px">
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">
+                                    עוגת תותים
+                                </h5>
+                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                    מנפצת הקאפקייקס
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-left">
+                        <div class="md:px-6">
+                            <img src="./img/ronald-mcdonald.png" alt="Mr Rogers" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px">
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">
+                                    רונלד מקדונלד
+                                </h5>
+                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                    וופל כפול עם גבינה
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section class="pb-20 relative block bg-black text-white">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px">
+                <svg viewBox="0 0 2560 95" xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 overflow-hidden">
+                    <polygon points="2560,0 2560,100 0,100"></polygon>
+                </svg>
+            </div>
+            <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
+                <div class="flex flex-wrap text-center justify-center">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold text-white">
+                            צור קשר
+                        </h2>
+                        <p class="text-lg leading-relaxed mt-4 mb-4">
+                            צור איתנו קשר לשאול שאלות, להשיג חבר, לדבר עם המאמנים שלנו או כל דבר אחר.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative block py-24 lg:pt-0 bg-black">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300" data-aos="fade-up-left">
+                            <div class="flex-auto p-5 lg:p-10 bg-yellow-500 text-white">
+                                <h4 class="text-2xl font-semibold">רוצים לעבוד איתנו?</h4>
+                                <p class="leading-relaxed mt-1 mb-4">
+                                    מלאו את הטופס הזה ונחזור אליכם תוך 24 שעות.
+                                </p>
+                                <div class="relative w-full mb-3 mt-8">
+                                    <label for="full-name" class="block uppercase text-xs font-bold mb-2">
+                                        שם מלא
+                                    </label>
+                                    <input type="text" class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full" placeholder="שם מלא" style="transition: all 0.15s ease 0s">
+                                </div>
+                                <div class="relative w-full mb-3">
+                                    <label for="email" class="block uppercase text-xs font-bold mb-2">
+                                        אימייל
+                                    </label>
+                                    <input type="email" class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full" placeholder="אימייל" style="transition: all 0.15s ease 0s">
+                                </div>
+                                <div class="relative w-full mb-3">
+                                    <label for="message" class="block uppercase text-xs font-bold mb-2">
+                                        הודעה
+                                    </label>
+                                    <textarea rows="4" cols="80" class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"placeholder="הקלד הודעה..."></textarea>
+                                </div>
+                                <div class="text-center mt-6">
+                                    <button class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1" type="button" style="transition: all 0.15s ease 0s">
+                                        שלה הודעה
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl font-semibold">
+                        עקבו אחרינו ברשתות החברתיות
+                    </h4>
+                    <h5 class="text-lg mt-0 mb-2 text-gray-700">
+                        מצאו אותנו בכל אחת מהפלטפורמות הללו, אנו מגיבים תוך 1-2 ימי עסקים.
+                    </h5>
+                    <div class="mt-6">
+                        <button type="button" class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none ml-2 p-3">
+                            <i class="flex fab fa-twitter text-yellow-500"></i>
+                        </button>
+                        <button type="button" class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none ml-2 p-3">
+                            <i class="flex fab fa-facebook-square text-yellow-500"></i>
+                        </button>
+                        <button type="button" class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none ml-2 p-3">
+                            <i class="flex fab fa-linkedin text-yellow-500"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-400">
+            <div class="md:flow-root text-center text-sm text-gray-600 font-semibold">
+                <div class="md:float-right">
+                    כל הזכויות שמורות © חדר הכוח
+                </div>
+                <div class="md:float-left">
+                    עוצב על ידי
+                    <a href="https://eliranpesahov.dev" class="text-gray-600 hover:text-gray-900">
+                        Eliran Pesahov
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
